@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+}
+
+.avatar {
+    width: 150px;
+    transition: transform 0.5s;
+}
+
+  
+  .avatar:hover {
+    transform: rotate(360deg); /* Rotate 360 degrees when hovered */
+  }
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: aqua;
+    border-style: solid ;
+    border-bottom: 5px solid #d8cefe;
+    /*
+    Challenge:
+    Add horizontal space around the flex children.
+    Hint: google "justify content"
+    */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+.text {
+    text-align: center;
+}
